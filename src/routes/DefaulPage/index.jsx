@@ -8,12 +8,11 @@ export const DefaultPageComponent = () => {
     return(
         <div>
             <HeaderComponent 
-            logo="this is the main page header"
-            >
-            </HeaderComponent>
+            logo="header"
+            />
             <Outlet />
             <FooterComponent
-             changeContent="this is the main page header"
+             changeContent="this is the main footer"
              />
         </div>
     ) 

@@ -1,9 +1,10 @@
-import React, { Children } from "react";
+import React from "react";
+import { HeaderStyle } from "./styled";
 
-export const HeaderComponent = ({logo, Links}) => {
+export const HeaderComponent = ({logo}) => {
     return(
-          <header>
+          <HeaderStyle>
                <h2>{logo}</h2>
-          </header>
+          </HeaderStyle>
     )
 }
